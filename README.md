@@ -10,6 +10,17 @@ Since publishing this paper, the code-base has been rewritten quite
 significantly to allow training on significantly larger data than was previously
 possible.
 
+Hyperparameters
+====
+
+The [empirical comparison paper](http://cogcomp.cs.illinois.edu/papers/acl2016.pdf) uses these settings:
+
+- Additive model
+- Hinge loss margin: 200
+- Batch size: 50
+- Noise parameter: 10
+- Epoch: 100
+
 Dependencies
 ====
 
